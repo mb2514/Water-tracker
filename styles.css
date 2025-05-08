@@ -20,14 +20,13 @@ body {
     text-align: center;
 }
 
-.water-header {
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 2.5rem;
+    color: #4fa3f5;
     margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 0 20px;
+    letter-spacing: -0.5px;
 }
 
 .word-container {
@@ -165,10 +164,14 @@ body {
         padding: 10px;
     }
     
-    .water-header {
+    .title {
         font-size: 2rem;
-        gap: 12px;
-        padding: 0 15px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .counter {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
     }
     
     .word-container {
@@ -182,11 +185,6 @@ body {
     
     .space {
         width: 16px;
-    }
-    
-    .counter {
-        font-size: 1.2rem;
-        margin-bottom: 1.5rem;
     }
     
     .jug {
